@@ -7,11 +7,43 @@
 
 body {
   width: 1200px;
-  margin: 0 auto;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 0 0 120px;
+}
 header .logo {
-  background-image: url(../digitalmarketingui/assets/logo.svg);
+  background-image: url(./assets/logo.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  width: 93px;
+  height: 32px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header nav p {
+  color: #000;
+  line-height: 26px;
+  text-transform: uppercase;
+  font: 400 14px "Oswald";
+  width: 470px;
+}
+header nav .btn {
+  width: 193px;
+  height: 52px;
+  border-radius: 30px;
+  background: #0057FF;
+  color: #FFF;
+  text-align: center;
+  font: 400 14px "Oswald";
+  line-height: 24px;
+  text-transform: uppercase;
 }
